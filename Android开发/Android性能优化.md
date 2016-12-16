@@ -1,4 +1,4 @@
-`TOC`
+[toc]
 
 #Android性能优化
 
