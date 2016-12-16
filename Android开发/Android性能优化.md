@@ -1,4 +1,4 @@
-[TOC]
+`TOC`
 
 #Android性能优化
 
@@ -21,8 +21,6 @@
 
 
 ## 1_布局优化
-
-----
 
 **尽量减少布局文件的层级，布局的层级少了，就意味着Android绘制时的工作量少了**
 
@@ -104,8 +102,6 @@ View panelLayout = ((ViewStub)findViewById(R.id.viewstub_id)).inflate();
 
 ## 2_绘制优化
 
----
-
 **View的onDraw方法要避免执行大量的操作**
 
 1. onDraw中**不要创建新的局部对象**，因为频繁调用且在调用瞬间产生大量临时对象，会占用过多内存和导致系统频繁GC
@@ -115,8 +111,6 @@ View panelLayout = ((ViewStub)findViewById(R.id.viewstub_id)).inflate();
 
 
 ## 3_内存泄漏
-
----
 
 1. 静态变量导致
 
@@ -207,8 +201,6 @@ animator.start();
 
 ## 4_响应速度优化
 
----
-
 响应速度优化的核心就是**避免在主线程中做耗时操作**。主线程做太多事情会导致Activity出现黑屏甚至ANR。
 
 Android规定，Activity如果5秒钟之内无法响应屏幕触摸事件或者键盘输入事件就会出现ANR，而BroadcastReceiver如果10秒之内还未执行操作也会出现ANR。
@@ -250,7 +242,6 @@ private synchronized void testANR(){
 
 ## 5_ListView、GridView优化
 
----
 
 * 采用ViewHolder
 
@@ -264,8 +255,6 @@ private synchronized void testANR(){
 
 ## 6_Bitmap优化
 
----
-
 * 通过BitmapFactory.Options对图片进行采样
 
 * 第三方图片加载技术
@@ -274,15 +263,12 @@ private synchronized void testANR(){
 
 ## 7_线程优化
 
----
-
 * 采用线程池，避免程序中存在大量Thread
 
 
 
 ## 8_其他优化
 
----
 
 * 避免创建过多对象
 
