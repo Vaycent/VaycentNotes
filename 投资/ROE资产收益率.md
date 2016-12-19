@@ -1,4 +1,8 @@
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript"
+   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
 
 ```
 /* edit by Vaycent on 2016/01/28
@@ -11,10 +15,11 @@ Pls feel free to contact, vaycentsun@gmail.com
 
 # ROE净资产收益率
 **引言**
+
 对于一门生意来说，这个指标是所有指标里最重要的。净资产收益率，也就是这门生意所投入的资本的回报率。通常我们所说的ROE就是加权ROE，即净利润与平均股东权益的百分比。这里的期初ROE为自己所作，只为简单方便计算，两者存在一定误差。
 
-* **加权ROE** \\( = 当年净利润 \div 当年加权平均净资产 * 100\% \\)
-* **期初ROE** \\( = 当年净利润 \div 年初股东权益* 100\% \\)
+* **加权ROE** $ = 当年净利润 \div 当年加权平均净资产 * 100\% $
+* **期初ROE** $ = 当年净利润 \div 年初股东权益* 100\% 
 
 对比例子  
 假设某企业当年30亿元净利润，却30亿利润在一年365日中均匀实现。年初股东权益为100亿元，全年不分红，则：  
