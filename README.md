@@ -2,6 +2,13 @@
 
 这个Git为本人部分的为知笔记链接集合
 
+## 插件建议（可选）
+建议配合以下chrome插件服用:
+
+[Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+
+[Github Toc](https://chrome.google.com/webstore/detail/github-toc/nalkpgbfaadkpckoadhlkihofnbhfhek)
+
 
 ## 目录
 
