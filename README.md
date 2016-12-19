@@ -20,4 +20,6 @@
 
 [投资类笔记](https://github.com/Vaycent/VaycentNotes/blob/master/%E6%8A%95%E8%B5%84/%E6%8A%95%E8%B5%84%E7%AC%94%E8%AE%B0.md)
 
+[个人综合笔记](https://github.com/Vaycent/VaycentNotes/blob/master/%E4%B8%AA%E4%BA%BA%E7%BB%BC%E5%90%88/%E4%B8%AA%E4%BA%BA%E7%BB%BC%E5%90%88%E7%AC%94%E8%AE%B0.md)
+
 [读书类笔记](https://github.com/Vaycent/VaycentNotes/blob/master/%E8%AF%BB%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0.md)
